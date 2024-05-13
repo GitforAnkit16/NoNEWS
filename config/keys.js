@@ -1,7 +1,4 @@
-require('dotenv').config();
-const {MONGOURI} = require("./dev")
-const {JWT_SECRET} = require("./dev")
 module.exports = {
-    MONGOURI: MONGOURI,
-    JWT_SECRET: JWT_SECRET
+    MONGOURI: "mongodb+srv://ankitpanda1612:JY4Ez4ZpSGP0S4HF@cluster0.1owlvj7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    JWT_SECRET: "aldiajdfnamnslallahdnsfin"
 }
